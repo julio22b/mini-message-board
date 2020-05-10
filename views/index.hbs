@@ -1,0 +1,8 @@
+<h1><a href="/new">Send a message</a></h1>
+{{#each messages}}
+    <article class="message-container">
+        <h5>{{user}} says:</h5>
+        <p class="message">{{text}}</p>
+        <p class="date">{{added}}</p>
+    </article>
+{{/each}}
